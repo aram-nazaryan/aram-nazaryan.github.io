@@ -5,11 +5,11 @@
 }
 
 .container {
-    flex-wrap: wrap;
     position: fixed;
     top: 10%;
     left: 10%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -28,8 +28,8 @@ h1{
 
 .currency{
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
+    flex-wrap: wrap;
     margin: 25px auto;
     width: 70%;
     justify-content: center;
@@ -44,6 +44,10 @@ h1{
     border-radius: 25px;
     padding-left: 15px;
 }
+.currency_type .opt{
+    border-radius: 25px;
+}
+
 
 .currency_value{
     height: 40px;
@@ -78,3 +82,4 @@ h1{
 #currency_value_two{
     padding: 10px;
 }
+
