@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Crypto</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto currency calculator</h1>
+        <div class="currency">
+            <select id="currency_type_one" class="currency_type">
+                <option selected value="BTC">Bitcoin</option>
+                <option value="LTC">Litecoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="DOGE">Dogecoin</option>
+            </select>
+            <input id="currency_value_one" class="currency_value" type="number">
+        </div>
+        <p id="live_currency"></p>
+        <div class="currency">
+            <select id="currency_type_two" class="currency_type">
+                <option value="BTC">Bitcoin</option>
+                <option selected value="USDT">USDT</option>
+                <option value="LTC">Litecoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="DOGE">Dogecoin</option>
+            </select>
+            <div id="currency_value_two" class="currency_value"></div>
+        </div>
+        <button id="btn">Submit</button>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

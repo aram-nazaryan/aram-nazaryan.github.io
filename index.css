@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.currency{
+    display: flex;
+    gap: 20px;
+    margin: 25px auto;
+    width: 70%;
+    justify-content: center;
+}
+
+.currency_type{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    outline: none;
+    border: 0;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+.currency_value{
+    height: 40px;
+    width: 350px;
+    font-size: 18px;
+    outline: none;
+    border: 0;
+    border-radius: 25px;
+    background-color: lightgray;
+    text-align: right;
+}
+
+#live_currency{
+    font-size: 20px;
+}
+
+#btn{
+    height: 40px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+}
+
+.currency_type:hover, #btn:hover{
+    color: white;
+    background-color: #252525;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#currency_value_two{
+    padding: 10px;
+}
