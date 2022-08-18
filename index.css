@@ -27,6 +27,7 @@ h1{
 
 .currency{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     margin: 25px auto;
     width: 70%;
